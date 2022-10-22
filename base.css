@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+/*corpo da pág*/
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: no-repeat center/cover url(assets/Clave\ teste.jpg);
+    display: block;
+    margin: 5px auto;
+    max-width: 100%;
+}
+
+/*lista de ordenação com links de navegação*/
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+/*tirando o formato de link das guias de navegação, e retirando a cor azul*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Botão saiba mais = verificar necessidade
+button {
+    padding: 15px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: #1D61DD;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}*/
+
+/*header {
+    background: url(assets/Clave\ teste\ -\ Copia.jpg);
+    display: block;
+    margin: 5px auto;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/*
+
+
+header {
+    background:no-repeat url('assets/photo.jpg');
+    width: 100%;
+    padding: 100%
+}
+
+
+header nav p {
+    color: white;
+}
+
+header nav ul {
+    display: block;
+    justify-content: space-between;
+    text-align: end;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 10px;
+    color: white;
+}
+
+
+header nav p {
+    font-weight: bold;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 4rem;
+    color: white;
+}
+
+.pontos {
+    background: #1a1816de;
+    background: no-repeat center url('assets/photo.jpg');
+    width: auto;
+   
+}
+
+
+.pontos .pontos-title {
+    color: white;
+}
+
+.pontos .pontos-cards {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.pontos .pontos-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.pontos .card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 24px 0 0;
+    margin: 25px;
+    position: relative;
+}
+
+.pontos .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 24px 24px 24px;
+    object-fit: cover;
+}
+
+.pontos .card-content {
+    padding: 0 15px;
+}
+
+.pontos .card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.pontos .card-content ul li {
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: grey;
+    font-weight: bold;
+}
+
+.pontos .card-content li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.pontos .card-content h1 {
+    font-size: 1rem;
+}
+
+.pontos .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #F19B39;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pontos .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #1D61DD;
+    border-radius: 0 0 8px 8px;
+    padding: 5px 10px;
+}
+
+.pontos .card .card-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.negocios {
+    padding: 15px;
+}
+
+.negocios h1 {
+    text-align: center;
+    color: white
+}
+
+.negocios {
+    background: #1a1816de;
+    padding: 15
+} */
